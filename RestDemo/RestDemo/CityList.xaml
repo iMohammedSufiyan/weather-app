@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestDemo.CityList"
+             Title="Weather">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10,5,10,10">
+            
+            <SearchBar Placeholder="Search For Any City"
+                       FontSize="23"
+                       TextChanged="SearchBar_TextChanged"
+                       SearchButtonPressed="SearchBar_SearchButtonPressed"
+                       Margin="0,10,0,0"/>
+
+            <StackLayout Padding="0,20,0,15">
+
+                <ListView x:Name="listView" ItemSelected="ListView_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding CityName}" Detail="{Binding Temprature, StringFormat='Temperature : {0}'}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <!--<AbsoluteLayout>
+                        <ActivityIndicator IsRunning="{Binding Source={x:Reference listView}, Path=IsVisible}"
+                                           AbsoluteLayout.LayoutFlags="PositionProportional"
+                                           Color="Black" 
+                                           AbsoluteLayout.LayoutBounds="0.5,0.5,100,100"/>
+                    </AbsoluteLayout>-->
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

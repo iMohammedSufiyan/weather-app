@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestDemo.MainPage"
+             BackgroundImageSource="back.jpg"
+             Title="{Binding CityName, StringFormat='{0} Temprature'}">
+
+    <!-- Property Element Sysntax -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="labelStyle">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid BackgroundColor="#a000"/>
+        <!--<AbsoluteLayout>
+            <ActivityIndicator IsRunning="{Binding Source={x:Reference stack}, Path=IsVisible}"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               Color="White"
+                               AbsoluteLayout.LayoutBounds="0.5,0.5,100,100"/>
+        </AbsoluteLayout>-->
+        <StackLayout x:Name="stack" Padding="0,50,0,0">
+            <Label x:Name="city" Style="{StaticResource labelStyle}" Text="{Binding CityName}" FontSize="42"/>
+            <Label x:Name="temp" Style="{StaticResource labelStyle}" Text="{Binding Temprature}" FontSize="100"/>
+            <Label x:Name="desc" Style="{StaticResource labelStyle}" Text="{Binding Description}" FontSize="35"/>
+            <Label x:Name="feel" Style="{StaticResource labelStyle}" Text="{Binding FeelsLike, StringFormat='Feels Like : {0}'}" FontSize="25" FontAttributes="None" Margin="0,5,0,0"/>
+            <Label x:Name="hmid" Style="{StaticResource labelStyle}" Text="{Binding Humidity , StringFormat='Humidity : {0}'}" FontSize="22" FontAttributes="None"/>
+            <Label x:Name="wind" Style="{StaticResource labelStyle}" Text="{Binding WindSpeed, StringFormat='Wind Speed : {0}'}" FontSize="20" FontAttributes="None"/>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
