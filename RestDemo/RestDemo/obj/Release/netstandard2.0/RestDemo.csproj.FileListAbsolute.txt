@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\bin\Release\netstandard2.0\RestDemo.deps.json
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\bin\Release\netstandard2.0\RestDemo.dll
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\bin\Release\netstandard2.0\RestDemo.pdb
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\CityList.xaml.g.cs
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\SplashPage.xaml.g.cs
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.dll
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\refint\RestDemo.dll
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\RestDemo.pdb
+C:\Users\Administrator\Desktop\weather-app\RestDemo\RestDemo\obj\Release\netstandard2.0\ref\RestDemo.dll
